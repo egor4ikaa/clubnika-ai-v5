@@ -1,0 +1,183 @@
+{
+  "健康植株": {
+    "description": "The strawberry plant (garden strawberry) is in excellent condition. Leaves are bright green, without spots, plaque, or deformations. The bush is vigorous, actively growing, flowering, and fruiting. Berries are large, evenly colored, without rot or mechanical damage.",
+    "symptoms": [
+      "叶片呈浓郁的绿色",
+      "无斑点、霉层、卷曲和坏死",
+      "根系发达",
+      "开花和坐果丰富",
+      "果实大而健康，口感良好"
+    ],
+    "preparates": [],
+    "treatment": "Continue standard care: regular root watering, timely removal of runners (if not needed for propagation), mulching beds, applying balanced fertilizers according to the growth stage.",
+    "prevention": "Observe crop rotation (return strawberries to the same place no earlier than after 3-4 years). Use healthy seedlings. Maintain optimal soil moisture (without stagnant water). Carry out preventive treatments with biological products in spring and autumn (Fitosporin, Trichodermin). Remove weeds and plant debris. Fertilize with potassium and phosphorus in time to boost immunity."
+  },
+  "细菌性叶斑病": {
+    "description": "Bacterial disease. Yellow or brown irregular spots appear on leaves, growing quickly, as if after contact with fire.",
+    "symptoms": ["黄色或褐色湿斑", "斑点迅速扩大", "叶片干枯"],
+    "preparates": ["Fitolavin", "Abiga-Peak", "Copper sulfate"],
+    "treatment": "Remove affected leaves. Spray with copper-containing preparations. If severely affected, destroy the plant.",
+    "prevention": "Avoid injuring leaves, treat cuts with garden pitch, prevent waterlogging."
+  },
+  "细菌性根癌": {
+    "description": "Bacterial disease. Ugly growths appear on the plant's roots, disrupting nutrition.",
+    "symptoms": ["根部出现瘤状物和虫瘿", "生长迟缓", "叶片黄化", "萎蔫"],
+    "preparates": ["Fitosporin", "Fitolavin", "Copper-containing preparations"],
+    "treatment": "Dig up and burn diseased plants. Treat the soil with copper sulfate solution or Fitolavin.",
+    "prevention": "Buy healthy seedlings, disinfect roots before planting, observe crop rotation."
+  },
+  "细菌病": {
+    "description": "Bacterial disease caused by Corynebacterium fascians. Affects weakened plants. Bushes stop developing, leaves and stems become deformed, flowers grow on thick deformed pedicels.",
+    "symptoms": ["叶片和茎畸形", "花梗增厚弯曲", "生长停滞", "无法正常结果"],
+    "preparates": ["Fitolavin", "Gamair", "Copper sulfate"],
+    "treatment": "Remove and burn diseased plants. Treat remaining bushes with bactericides. Improve soil health.",
+    "prevention": "Maintain plant immunity, avoid overcrowding, apply phosphorus-potassium fertilizers."
+  },
+  "腐烂病": {
+    "description": "Fungal disease caused by Sclerotinia libertiana. Berries rot and become covered with fluffy white mold.",
+    "symptoms": ["果实上出现白色绒毛状霉层", "果实腐烂", "叶片和茎秆受害"],
+    "preparates": ["Fitosporin", "Maxim", "Fundazol"],
+    "treatment": "Destroy affected berries and leaves. Spray plants with fungicides. Normalize humidity.",
+    "prevention": "Avoid excessive watering, ventilate plantings, remove plant debris."
+  },
+  "白斑病": {
+    "description": "Fungal disease caused by Mycosphaerella fragariae and Ramularia tulasnei. Brown spots appear on leaves, then light spots with a dark border.",
+    "symptoms": ["褐色斑点", "中央浅色带深色边缘", "斑点中心干枯脱落", "形成孔洞"],
+    "preparates": ["Fitosporin", "Bordeaux mixture", "Abiga-Peak", "Topaz"],
+    "treatment": "Remove diseased leaves. Spray with systemic fungicides. Repeat after 10-14 days if necessary.",
+    "prevention": "Use healthy seedlings, thin out plantings, avoid waterlogging."
+  },
+  "褐斑病": {
+    "description": "Fungal disease caused by Marssonina petontillae. Leaves become covered with brown spots with a light center. Appears during fruit set and ripening.",
+    "symptoms": ["叶片上出现褐色斑点", "斑点中央颜色较浅", "结果期发病"],
+    "preparates": ["Fitosporin", "Bordeaux mixture", "Hom", "Skor", "Ridomil", "Ordan"],
+    "treatment": "Remove affected leaves. Treat bushes with fungicides. If severely infected, destroy plants.",
+    "prevention": "Observe crop rotation, avoid overcrowding, remove weeds, mulch soil."
+  },
+  "黄萎病": {
+    "description": "Fungal disease caused by Verticillium dahliae. Starts from the roots, then spreads to leaves, runners, and fruits. Develops especially quickly on sandy soils.",
+    "symptoms": ["下部叶片萎蔫", "叶柄变红", "生长迟缓", "植株死亡"],
+    "preparates": ["Fundazol", "Maxim", "Trichodermin", "Glyokladin"],
+    "treatment": "Water the soil and plants with fungicides. Remove severely affected bushes with a clump of soil.",
+    "prevention": "Use healthy seedlings, observe crop rotation, add organic matter to improve soil."
+  },
+  "丛枝病": {
+    "description": "Viral disease, also known as 'witches' broom'. Main signs: small flower stalks, lack of berries, and abundant shoot overgrowth.",
+    "symptoms": ["大量细弱枝条（丛生）", "花梗细小发育不良", "不结果", "叶片小而苍白"],
+    "preparates": [],
+    "treatment": "No cure. Immediately remove and burn all affected bushes along with roots.",
+    "prevention": "Purchase certified seedlings, disinfect soil, remove carriers (leafhoppers, aphids)."
+  },
+  "根腐病": {
+    "description": "Fungal disease caused by Armillaria mellea (honey fungus). The fungus settles on roots, preventing nutrition and growth. Lower leaves die off, harvest is poor.",
+    "symptoms": ["下部叶片枯死", "果实小而稀少", "根部有菌丝体", "植株萎蔫"],
+    "preparates": ["Fundazol", "Maxim", "Glyokladin"],
+    "treatment": "Dig up and burn diseased plants. Treat soil with liming and fungicides.",
+    "prevention": "Do not plant strawberries after trees or in old areas with honey fungus, use improved soil."
+  },
+  "叶缘黄化": {
+    "description": "Viral disease. Central leaves turn yellow at the edges, bushes become dwarfed and pressed to the ground.",
+    "symptoms": ["叶片边缘有黄色镶边", "植株贴地生长", "矮化", "叶柄变红"],
+    "preparates": [],
+    "treatment": "No cure. Remove diseased specimens. Treat soil against nematodes and viruses.",
+    "prevention": "Use healthy planting material, control nematodes (potential carriers)."
+  },
+  "斑驳病": {
+    "description": "Viral disease. The presence of the virus is indicated by light green mottles (small spots) on leaves. The plant weakens, does not form runners or ovaries.",
+    "symptoms": ["浅绿色细小斑点", "生长衰弱", "不长匍匐茎和花蕾", "偶有结果但果实很小"],
+    "preparates": [],
+    "treatment": "No cure. Destroy diseased bushes. Improve plantation health.",
+    "prevention": "Buy verified seedlings, observe crop rotation, control aphids and leafhoppers."
+  },
+  "花叶病": {
+    "description": "Viral disease. Yellow spots resembling a mosaic appear on leaf blades. Bush growth stops, runners and flower stalks dry up, leaves become deformed.",
+    "symptoms": ["不规则黄色斑点", "花叶状图案", "叶片畸形", "匍匐茎和花梗干枯"],
+    "preparates": [],
+    "treatment": "No cure. Remove and burn affected plants. Disinfect the soil.",
+    "prevention": "Use resistant varieties, control sucking pests, do not take runners from diseased bushes."
+  },
+  "卷叶病": {
+    "description": "Viral disease. Leaf blades curl, shrink, and roll towards the edges. Edges turn yellow and dry. Flowering usually does not occur.",
+    "symptoms": ["叶片卷曲皱缩", "叶缘黄化干枯", "矮化", "不开花"],
+    "preparates": [],
+    "treatment": "No cure. Diseased plants must be immediately removed and burned.",
+    "prevention": "Buy healthy seedlings, control carriers (aphids, mites), disinfect tools."
+  },
+  "白粉病": {
+    "description": "Fungal disease caused by Uncinula necator. The entire bush becomes covered with white coating, leaves dry out, plant loses frost resistance.",
+    "symptoms": ["叶片、茎和果实上出现白色粉状霉层", "叶片卷曲干枯", "抗寒性下降"],
+    "preparates": ["Topaz", "Tiovit Jet", "Fitosporin", "Skor"],
+    "treatment": "Spray with sulfur-containing fungicides. Remove severely affected leaves.",
+    "prevention": "Do not overfeed with nitrogen, ensure air circulation, carry out preventive treatments."
+  },
+  "非侵染性损伤": {
+    "description": "Damage caused by adverse environmental conditions, not pathogens. Includes freezing, hail damage, deficiency or excess of nutrients, water balance disturbance.",
+    "symptoms": ["冻害（组织变黑）", "冰雹造成的撕裂和凹痕", "缺素引起的黄化、叶缘焦枯", "干旱或涝渍引起的萎蔫"],
+    "preparates": ["Fertilizers (based on deficiency)", "Growth regulators (Zircon, Epin)", "Mulch, covering material"],
+    "treatment": "Restore agricultural practices: adjust watering, fertilize, cover for winter, protect from hail with netting. Remove severely damaged parts.",
+    "prevention": "Proper care, frost protection, balanced fertilizing, selection of zoned varieties."
+  },
+  "叶焦病": {
+    "description": "Fungal disease caused by Diplocarpon earlianum. Brown spots enlarge, leaves become 'scorched'.",
+    "symptoms": ["褐色斑点不断扩大", "叶片完全褐化干枯", "叶片脱落"],
+    "preparates": ["Bordeaux mixture", "Hom", "Abiga-Peak", "Skor"],
+    "treatment": "Remove diseased leaves. Treat with copper-containing preparations. Thin out plantings.",
+    "prevention": "Avoid waterlogging, fertilize with potassium and phosphorus, carry out preventive spraying in spring."
+  },
+  "花瓣绿化": {
+    "description": "Viral disease (phytoplasmosis). Leaves become small, yellowish-green with mosaic coloring. Flower petals shrink, acquire light green color, sepals overgrow. Berries do not set.",
+    "symptoms": ["叶片细小呈黄绿色带花叶状", "花瓣呈绿色", "花萼过度生长", "不结果"],
+    "preparates": [],
+    "treatment": "No cure. Remove all affected plants. Control carriers (leafhoppers).",
+    "prevention": "Use healthy seedlings, destroy weeds, spray with insecticides against leafhoppers."
+  },
+  "干枯病": {
+    "description": "Fungal disease caused by Ramularia grevilleana. Leaves become covered with rusty spots, dry out, plant languishes.",
+    "symptoms": ["叶片上出现锈褐色斑点", "叶片干枯", "植株生长衰弱"],
+    "preparates": ["Topaz", "Fitosporin", "Bordeaux mixture", "Falcon"],
+    "treatment": "Remove diseased leaves. Spray with fungicides. In advanced cases, uproot plants.",
+    "prevention": "Maintain low humidity, ventilate plantings, apply phosphorus-potassium fertilizers."
+  },
+  "丝核菌根腐病": {
+    "description": "Fungal disease caused by Rhizoctonia solani. Affects roots, causing bushes to not receive water and nutrition.",
+    "symptoms": ["根部受害（褐色斑点、腐烂）", "叶片萎蔫黄化", "生长停滞"],
+    "preparates": ["Maxim", "Fundazol", "Trichodermin", "Rovral"],
+    "treatment": "Water soil with fungicides. Transplant healthy bushes to a new area. Destroy diseased ones.",
+    "prevention": "Disinfect soil before planting, do not add fresh manure, observe crop rotation."
+  },
+  "灰霉病": {
+    "description": "Fungal disease caused by Botrytis cinerea. Berries develop patches with grayish fluffy mold coating, fruits rot. Develops with excessive moisture.",
+    "symptoms": ["果实上出现灰色绒毛状霉层", "果实软腐", "叶片上出现褐色斑点"],
+    "preparates": ["Fitosporin", "Chorus", "Switch", "Teldor"],
+    "treatment": "Remove all rotten berries. Treat bushes with fungicides. Reduce watering. Mulch beds.",
+    "prevention": "Avoid overcrowding, remove weeds, harvest berries on time, avoid water getting on fruits."
+  },
+  "角斑病": {
+    "description": "Bacterial disease. Begins with watery damage on the underside of the leaf, then dark green angular spots form, exuding bacteria. Lesions merge into reddish spots with a chlorotic halo.",
+    "symptoms": ["叶片背面出现水渍状小点", "深绿色角状斑点", "带黄色晕圈的红色斑点", "花萼和果实受害"],
+    "preparates": ["Fitolavin", "Planriz", "Copper sulfate", "Abiga-Peak"],
+    "treatment": "Remove diseased leaves. Treat with bactericides. Destroy heavily infected bushes.",
+    "prevention": "Use healthy runners, do not overhead water, carry out preventive spraying."
+  },
+  "镰刀菌枯萎病": {
+    "description": "Fungal disease where the pathogen enters through roots, causing marginal leaf necrosis. Leaf blades change color at edges, then dry out. Develops in overcrowded plantings with high acidity.",
+    "symptoms": ["叶缘坏死（叶缘黄化干枯）", "叶柄变褐", "莲座叶萎蔫", "下部叶片受害"],
+    "preparates": ["Fundazol", "Maxim", "Trichodermin", "Fitosporin"],
+    "treatment": "Water soil with fungicide solution. Remove severely affected bushes. Deacidify soil.",
+    "prevention": "Avoid overcrowding, control soil acidity (pH 5.5-6.5), use healthy planting material."
+  },
+  "黑腐病": {
+    "description": "Fungal disease caused by fungi of the genus Mycosphaerella. Fruits become covered with black moldy coating and rot. Berries with mechanical damage are more often affected.",
+    "symptoms": ["果实上出现黑色霉层", "果实软腐", "叶片上出现暗色斑点"],
+    "preparates": ["Ordan", "Ridomil", "Quadris"],
+    "treatment": "Collect and destroy diseased berries. Treat bushes with contact fungicides. Avoid injuring fruits.",
+    "prevention": "Harvest carefully, avoid damage, maintain cleanliness in beds."
+  },
+  "黑斑病（炭疽病）": {
+    "description": "Fungal disease caused by Colletotrichum acutatum. Manifests as dark specks on leaves, stems, and fruits. When roots are affected, bushes die.",
+    "symptoms": ["叶柄、匍匐茎和果实上出现暗色凹陷斑点", "叶片上出现暗色小点", "植株萎蔫死亡"],
+    "preparates": ["Ridomil Gold", "Quadris", "Skor", "Ordan"],
+    "treatment": "Remove and burn severely affected plants. Treat remaining bushes with copper-containing fungicides.",
+    "prevention": "Buy certified seedlings, disinfect soil, observe crop rotation."
+  }
+}
