@@ -14,6 +14,9 @@ dist-ssr
 metadata.json
 model.json
 weights.bin
+models/disease/metadata.json
+models/sort/metadata.json
+*./metadata.json
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
