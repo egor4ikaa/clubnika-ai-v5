@@ -6,18 +6,32 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+# Environment variables
 .env
+.env.local
+.env.*.local
+.env.example
+
+# Build outputs
 node_modules
 dist
 dist-ssr
 *.local
-metadata.json
-model.json
-weights.bin
+
+# Models with secrets
+**/metadata.json
+models/**/metadata.json
 models/disease/metadata.json
 models/sort/metadata.json
-*./metadata.json
-# Editor directories and files
+
+# Model files (если большие)
+model.json
+weights.bin
+*.pb
+*.onnx
+
+# Editor directories
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -27,4 +41,3 @@ models/sort/metadata.json
 *.njsproj
 *.sln
 *.sw?
-.env.example
