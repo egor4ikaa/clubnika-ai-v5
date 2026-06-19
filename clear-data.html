@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Очистка localStorage — Strawberry AI</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, -apple-system, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+    .card { background: #1e293b; border-radius: 16px; padding: 32px; max-width: 600px; width: 100%; box-shadow: 0 25px 50px rgba(0,0,0,0.4); }
+    h1 { font-size: 24px; margin-bottom: 8px; color: #4ade80; }
+    p { color: #94a3b8; margin-bottom: 20px; font-size: 14px; line-height: 1.6; }
+    .keys { background: #0f172a; border-radius: 8px; padding: 16px; margin-bottom: 24px; font-family: 'Courier New', monospace; font-size: 12px; color: #94a3b8; max-height: 240px; overflow-y: auto; }
+    .keys div { padding: 2px 0; display: flex; align-items: center; gap: 8px; }
+    .keys span { color: #4ade80; }
+    .btn { width: 100%; padding: 14px; border: none; border-radius: 10px; font-size: 16px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+    .btn-clear { background: #dc2626; color: white; }
+    .btn-clear:hover { background: #ef4444; transform: scale(1.02); }
+    .btn-back { background: #334155; color: #e2e8f0; margin-top: 12px; }
+    .btn-back:hover { background: #475569; }
+    .success { background: #065f46; color: #6ee7b7; padding: 12px; border-radius: 8px; text-align: center; margin-bottom: 16px; display: none; font-weight: 600; }
+    .warning { background: #78350f; color: #fcd34d; padding: 12px; border-radius: 8px; text-align: center; margin-bottom: 16px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🧹 Очистка данных</h1>
+    <p>Эта страница удалит ВСЕ данные из localStorage. После этого сайт будет полностью чистым, как при первой загрузке.</p>
+    
+    <div class="warning">⚠️ Это действие необратимо. Все аккаунты, чаты, платежи будут удалены.</div>
+    
+    <div class="keys" id="keysList"></div>
+    
+    <div class="success" id="success">✅ Все данные удалены!</div>
+    
+    <button class="btn btn-clear" onclick="clearAll()">🗑 Очистить всё</button>
+    <button class="btn btn-back" onclick="window.location.href='/'">← Вернуться на сайт</button>
+  </div>
+
+  <script>
+    const KEYS = [
+      // Демо-авторизация
+      'demo_current_user_id',
+      'demo_users',
+      
+      // Подписки и платежи
+      'demo_payments',
+      'demo_user',
+      
+      // Подписка по пользователю (динамические ключи)
+      // sub_{userId} — состояние подписки
+      // usage_{userId} — использование лимитов
+      // payment_draft_{userId} — черновик платежа
+      
+      // Чаты ассистента
+      'assistant_charts_farm',
+      'assistant_chats_farm',
+      'assistant_active_chat_farm',
+      'assistant_charts_accounting',
+      'assistant_chats_accounting',
+      'assistant_active_chat_accounting',
+      'assistant_charts_marketing',
+      'assistant_chats_marketing',
+      'assistant_active_chat_marketing',
+      
+      // API ключи
+      'api_key_gemini',
+      'api_key_deepseek',
+      'api_key_groq',
+      'api_key_mistral',
+      'api_key_yandex',
+      
+      // Админ-панель
+      'admin_authenticated',
+      'admin_auth_time',
+      
+      // Настройки
+      'locale',
+      'theme',
+      
+      // Разное
+      'active_payment',
+      'current_user',
+    ];
+
+    // Показать все ключи
+    const list = document.getElementById('keysList');
+    const allKeys = Object.keys(localStorage);
+    KEYS.forEach(key => {
+      const hasData = localStorage.getItem(key);
+      const div = document.createElement('div');
+      div.innerHTML = `<span>${hasData ? '🔴' : '⚪'}</span> ${key}`;
+      list.appendChild(div);
+    });
+    
+    if (allKeys.length === 0) {
+      list.innerHTML = '<div style="color:#4ade80;">✅ localStorage уже пуст</div>';
+    }
+
+    function clearAll() {
+      if (!confirm('Удалить ВСЕ данные из localStorage?')) return;
+      
+      // Удалить известные ключи
+      KEYS.forEach(key => localStorage.removeItem(key));
+      
+      // Удалить динамические ключи (sub_*, usage_*, payment_draft_*)
+      allKeys.forEach(key => {
+        if (key.startsWith('sub_') || key.startsWith('usage_') || key.startsWith('payment_draft_')) {
+          localStorage.removeItem(key);
+        }
+      });
+      
+      // Удалить все остальные (на всякий случай)
+      localStorage.clear();
+      
+      document.getElementById('success').style.display = 'block';
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 1500);
+    }
+  </script>
+</body>
+</html>
